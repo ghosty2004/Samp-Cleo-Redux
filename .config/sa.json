@@ -51308,7 +51308,7 @@
         {
           "id": "0AF8",
           "name": "sampAddChatMessage",
-          "num_params": 1,
+          "num_params": 2,
           "input": [
             {
               "name": "text",
@@ -51323,7 +51323,7 @@
         {
           "id": "0AF9",
           "name": "sampSendChat",
-          "num_params": 0,
+          "num_params": 1,
           "input": [
             {
               "name": "text",
@@ -51334,15 +51334,15 @@
         {
           "id": "0B34",
           "name": "sampRegisterChatCommand",
-          "num_params": 1,
+          "num_params": 2,
           "input": [
             {
               "name": "cmd",
               "type": "string"
             },
             {
-              "name": "func",
-              "type": "void"
+              "name": "",
+              "type": "label"
             }
           ]
         }

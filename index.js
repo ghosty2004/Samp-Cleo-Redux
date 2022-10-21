@@ -2,6 +2,9 @@
 
 import { isSampAvailable, sampAddChatMessage, sampRegisterChatCommand } from "./includes/sampNatives";
  
+function test() {
+    sampAddChatMessage("work", 0x00CC00);
+}
 
 while(true) {
     wait(0);
@@ -9,9 +12,7 @@ while(true) {
 
     sampAddChatMessage("Ok", 0xFF0000);
 
-    sampRegisterChatCommand("test", () => {
-        sampAddChatMessage("Work", 0x00CC00);
-    });
+    sampRegisterChatCommand("test", test);
 
     break;
 }
