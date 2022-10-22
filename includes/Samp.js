@@ -225,4 +225,9 @@ export const Samp = {
      * @returns {boolean}
      */
     isDialogActive: () => native("sampIsDialogActive"),
+    /**
+     * Get current dialog style
+     * @returns {number}
+     */
+    getCurrentDialogType: () => native("sampGetCurrentDialogType"),
 }
