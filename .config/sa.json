@@ -54747,6 +54747,17 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0B54",
+          "name": "sampGetListboxItemsCount",
+          "num_params": 1,
+          "output": [
+            {
+              "name": "value",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
