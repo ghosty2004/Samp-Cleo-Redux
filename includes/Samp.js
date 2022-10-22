@@ -210,4 +210,9 @@ export const Samp = {
      * @returns {number}
      */
     getCurrentDialogListItem: () => native("sampGetCurrentDialogListItem"),
+    /**
+     * Returns text from 1st style dialog fields
+     * @returns {any}
+     */
+    getCurrentDialogEditboxText: () => native("sampGetCurrentDialogEditboxText"),
 }
