@@ -54616,6 +54616,17 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0B4A",
+          "name": "sampGetCurrentDialogEditboxText",
+          "num_params": 1,
+          "output": [
+            {
+              "name": "value",
+              "type": "any"
+            }
+          ]
         }
       ]
     }
