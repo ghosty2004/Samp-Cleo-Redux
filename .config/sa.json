@@ -54758,6 +54758,23 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0B57",
+          "name": "sampGetPlayerAnimationId",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "playerId",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "value",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
