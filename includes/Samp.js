@@ -275,4 +275,10 @@ export const Samp = {
      * @returns {number}
      */
     getPlayerAnimationId: (playerId) => native("sampGetPlayerAnimationId", playerId),
+    /**
+     * Get the name and animation file using its id
+     * @param {number} animationId 
+     * @returns {{file: string, name: string}}
+     */
+    getAnimationNameAndFile: (animationId) => native("sampGetAnimationNameAndFile", animationId),
 }
