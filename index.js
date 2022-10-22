@@ -3,7 +3,6 @@
 import { KeyCode } from "./.config/enums";
 
 import { Samp } from "./includes/Samp";
-import { DialogStyle, GameState } from "./includes/sampEnums";
 
 while(true) {
     wait(0);
