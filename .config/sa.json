@@ -54834,6 +54834,20 @@
               "type": "string"
             }
           ]
+        },
+        {
+          "id": "0B5C",
+          "name": "sampIsPlayerPaused",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "playerId",
+              "type": "int"
+            }
+          ],
+          "attrs": {
+            "is_condition": true
+          }
         }
       ]
     }
