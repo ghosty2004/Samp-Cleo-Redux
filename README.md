@@ -2,7 +2,9 @@
 
 `Warning:` I'm not done with every natives, but I will try to add all
 
-If you want to test this plugin you need to download it first from here: https://github.com/cleolibrary/CLEO-Redux
+# Installation:
+1. Download `Cleo-Redux` from https://github.com/cleolibrary/CLEO-Redux/releases/
+2. Replace `sa.json` from `/cleo/.config/` with <a href="https://github.com/Ghosty2004/Samp-Cleo-Redux/blob/master/.config/sa.json">this</a>
 
 Example of usage with JS:
 ```js
