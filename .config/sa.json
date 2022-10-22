@@ -54646,6 +54646,17 @@
           "attrs": {
             "is_condition": true
           }
+        },
+        {
+          "id": "0B4D",
+          "name": "sampGetCurrentDialogType",
+          "num_params": 1,
+          "output": [
+            {
+              "name": "value",
+              "type": "int"              
+            }
+          ]
         }
       ]
     }
