@@ -54817,6 +54817,23 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0B5B",
+          "name": "sampGetListboxItemText",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "listItem",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "value",
+              "type": "string"
+            }
+          ]
         }
       ]
     }
