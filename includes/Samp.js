@@ -230,4 +230,9 @@ export const Samp = {
      * @returns {number}
      */
     getCurrentDialogType: () => native("sampGetCurrentDialogType"),
+    /**
+     * Get current dialog id
+     * @returns {number}
+     */
+    getCurrentDialogId: () => native("sampGetCurrentDialogId"),
 }
