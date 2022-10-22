@@ -269,4 +269,10 @@ export const Samp = {
      * @returns {number}
      */
     getListboxItemsCount: () => native("sampGetListboxItemsCount"),
+    /**
+     * Get the current animation of a player
+     * @param {number} playerId 
+     * @returns {number}
+     */
+    getPlayerAnimationId: (playerId) => native("sampGetPlayerAnimationId", playerId),
 }
