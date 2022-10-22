@@ -235,4 +235,9 @@ export const Samp = {
      * @returns {number}
      */
     getCurrentDialogId: () => native("sampGetCurrentDialogId"),
+    /**
+     * Get current game state
+     * @returns {number}
+     */
+    getGameState: () => native("sampGetGamestate"),
 }
