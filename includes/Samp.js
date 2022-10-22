@@ -264,4 +264,9 @@ export const Samp = {
      * @returns {number}
      */
     getPickupSampIdByHandle: (pickup) => native("sampGetPickupSampIdByHandle", pickup),
+    /**
+     * Returns the total number of elements in the last open dialog
+     * @returns {number}
+     */
+    getListboxItemsCount: () => native("sampGetListboxItemsCount"),
 }
