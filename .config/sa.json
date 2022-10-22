@@ -54627,6 +54627,17 @@
               "type": "any"
             }
           ]
+        },
+        {
+          "id": "0B4B",
+          "name": "sampSetCurrentDialogEditboxText",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "text",
+              "type": "string"
+            }
+          ]
         }
       ]
     }
