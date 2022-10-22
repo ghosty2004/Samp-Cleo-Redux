@@ -240,4 +240,10 @@ export const Samp = {
      * @returns {number}
      */
     getGameState: () => native("sampGetGamestate"),
+    /**
+     * Get the object handle
+     * @param {number} objectId 
+     * @returns {number}
+     */
+    getObjectHandleBySampId: (objectId) => native("sampGetObjectHandleBySampId", objectId),
 }
