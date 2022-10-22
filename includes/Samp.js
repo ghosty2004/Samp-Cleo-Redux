@@ -200,4 +200,9 @@ export const Samp = {
      * @returns {boolean}
      */
     is3dTextDefined: (labelId) => native("sampIs3dTextDefined", labelId),
+    /**
+     * Closes an open dialog with a specific button
+     * @param {number} buttonId 
+     */
+    closeCurrentDialogWithButton: (buttonId) => native("sampCloseCurrentDialogWithButton", buttonId),
 }
