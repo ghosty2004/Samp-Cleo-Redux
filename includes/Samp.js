@@ -220,4 +220,9 @@ export const Samp = {
      * @param {string} text 
      */
     setCurrentDialogEditboxText: (text) => native("sampSetCurrentDialogEditboxText", text),
+    /**
+     * Check if any dialog is active
+     * @returns {boolean}
+     */
+    isDialogActive: () => native("sampIsDialogActive"),
 }
