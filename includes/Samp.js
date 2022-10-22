@@ -215,4 +215,9 @@ export const Samp = {
      * @returns {any}
      */
     getCurrentDialogEditboxText: () => native("sampGetCurrentDialogEditboxText"),
+    /**
+     * Paste text in the field for entering the 1st style dialog
+     * @param {string} text 
+     */
+    setCurrentDialogEditboxText: (text) => native("sampSetCurrentDialogEditboxText", text),
 }
