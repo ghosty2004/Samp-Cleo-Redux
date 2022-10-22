@@ -54668,6 +54668,17 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0B4F",
+          "name": "sampGetGamestate",
+          "num_params": 1,
+          "output": [
+            {
+              "name": "value",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
