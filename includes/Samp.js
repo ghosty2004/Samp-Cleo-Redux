@@ -287,5 +287,11 @@ export const Samp = {
      * @param {string} animationFile 
      * @returns {number}
      */
-    getAnimationIdByNameAndFile: (animationName, animationFile) => native("sampGetAnimationIdByNameAndFile", animationName, animationFile)
+    getAnimationIdByNameAndFile: (animationName, animationFile) => native("sampGetAnimationIdByNameAndFile", animationName, animationFile),
+    /**
+     * Returns item text from the dialog list
+     * @param {number} listItem 
+     * @returns {string}
+     */
+    getListboxItemText: (listItem) => native.call("sampGetListboxItemText", listItem),
 }
