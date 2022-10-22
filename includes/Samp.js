@@ -293,5 +293,11 @@ export const Samp = {
      * @param {number} listItem 
      * @returns {string}
      */
-    getListboxItemText: (listItem) => native.call("sampGetListboxItemText", listItem),
+    getListboxItemText: (listItem) => native("sampGetListboxItemText", listItem),
+    /**
+     * Check if a player is paused
+     * @param {number} playerId 
+     * @returns {boolean}
+     */
+    isPlayerPaused: (playerId) => native("sampIsPlayerPaused", playerId),
 }
