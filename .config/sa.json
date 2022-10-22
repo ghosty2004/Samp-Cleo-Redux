@@ -54775,6 +54775,27 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0B58",
+          "name": "sampGetAnimationNameAndFile",
+          "num_params": 4,
+          "input": [
+            {
+              "name": "animationId",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "file",
+              "type": "string"
+            },
+            {
+              "name": "name",
+              "type": "string"
+            }
+          ]
         }
       ]
     }

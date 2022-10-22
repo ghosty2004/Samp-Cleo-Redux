@@ -16,6 +16,7 @@ while(true) {
 
         if(Pad.IsKeyDown(KeyCode.End)) {
             const char = new Player().getChar();
+            //Samp.addChatMessage(`${JSON.stringify(Samp.getAnimationNameAndFile(1))}`, 0xFF0000);
             //Samp.addChatMessage(`${Object.entries(GameState).find(f => f[1] == Samp.getGameState())[0]}`, 0xFF0000);
             //Samp.addChatMessage(`${Samp.getCurrentDialogId()}`, 0xFF0000);
             //Samp.addChatMessage(`${Object.entries(DialogStyle).find(f => f[1] === Samp.getCurrentDialogType())[0]}`, 0xFF0000);
