@@ -3,7 +3,7 @@
 import { KeyCode } from "./.config/enums";
 
 import { Samp } from "./includes/Samp";
-import { DialogStyle } from "./includes/sampEnums";
+import { DialogStyle, GameState } from "./includes/sampEnums";
 
 while(true) {
     wait(0);
@@ -16,6 +16,7 @@ while(true) {
 
         if(Pad.IsKeyDown(KeyCode.End)) {
             const char = new Player().getChar();
+            //Samp.addChatMessage(`${Object.entries(GameState).find(f => f[1] == Samp.getGameState())[0]}`, 0xFF0000);
             //Samp.addChatMessage(`${Samp.getCurrentDialogId()}`, 0xFF0000);
             //Samp.addChatMessage(`${Object.entries(DialogStyle).find(f => f[1] === Samp.getCurrentDialogType())[0]}`, 0xFF0000);
             //Samp.addChatMessage(`${JSON.stringify(Samp.isDialogActive())}`, 0xFF0000);

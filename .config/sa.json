@@ -54683,10 +54683,27 @@
         {
           "id": "0B50",
           "name": "sampGetObjectHandleBySampId",
-          "num_params": 1,
+          "num_params": 2,
           "input": [
             { 
               "name": "objectId",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "handle",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0B51",
+          "name": "sampGetPickupHandleBySampId",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "pickupId",
               "type": "int"
             }
           ],
