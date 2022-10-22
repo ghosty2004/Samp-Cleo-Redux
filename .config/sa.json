@@ -54859,6 +54859,14 @@
               "type": "bool"
             }
           ]
+        },
+        {
+          "id": "0B61",
+          "name": "sampIsLocalPlayerSpawned",
+          "num_params": 0,
+          "attrs": {
+            "is_condition": true
+          }
         }
       ]
     }
