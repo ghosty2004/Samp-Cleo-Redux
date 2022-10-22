@@ -16,6 +16,13 @@ while(true) {
 
         if(Pad.IsKeyDown(KeyCode.End)) {
             const char = new Player().getChar();
+            //Samp.addChatMessage(`${Samp.getCurrentDialogId()}`, 0xFF0000);
+            //Samp.addChatMessage(`${Object.entries(DialogStyle).find(f => f[1] === Samp.getCurrentDialogType())[0]}`, 0xFF0000);
+            //Samp.addChatMessage(`${JSON.stringify(Samp.isDialogActive())}`, 0xFF0000);
+            //Samp.setCurrentDialogEditboxText("test");
+            //Samp.addChatMessage(`${Samp.getCurrentDialogEditboxText()}`, 0xFF0000);
+            //Samp.addChatMessage(`${Samp.getCurrentDialogListItem()}`, 0xFF0000);
+            //Samp.closeCurrentDialogWithButton(1);
             //Samp.addChatMessage(`${Samp.is3dTextDefined(1)}`, 0xFF0000);
             //Samp.addChatMessage(`${Samp.create3dText("Hi", -1, char.getCoordinates().x, char.getCoordinates().y, char.getCoordinates().z, 50)}`);
             //Samp.addChatMessage(`${JSON.stringify(Samp.hasDialogRespond(1))}`, 0xFF0000);
