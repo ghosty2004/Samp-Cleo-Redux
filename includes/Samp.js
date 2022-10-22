@@ -252,4 +252,10 @@ export const Samp = {
      * @returns {number}
      */
     getPickupHandleBySampId: (pickupId) => native("sampGetPickupHandleBySampId", pickupId),
+    /**
+     * Gets the object ID by its handle
+     * @param {Object} object 
+     * @returns {number}
+     */
+    getObjectSampIdByHandle: (object) => native("sampGetObjectSampIdByHandle", object),
 }
