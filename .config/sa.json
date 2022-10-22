@@ -54201,8 +54201,256 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0B20",
+          "name": "sampGetCharHandleBySampPlayerId",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "id",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "handle",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0B21",
+          "name": "sampIsChatInputActive",
+          "num_params": 0,
+          "attrs": {
+            "is_condition": true
+          }
+        },
+        {
+          "id": "0B23",
+          "name": "sampIsPlayerConnected",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "id",
+              "type": "int"
+            }
+          ],
+          "attrs": {
+            "is_condition": true
+          }
+        },
+        {
+          "id": "0B25",
+          "name": "sampGetPlayerHealth",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "id",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "value",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0B26",
+          "name": "sampGetPlayerArmour",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "id",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "value",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0B27",
+          "name": "sampSetGamestate",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "gameState",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0B28",
+          "name": "sampDisconnectWithReason",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "value",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0B29",
+          "name": "sampSetLocalPlayerName",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "name",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "id": "0B2A",
+          "name": "sampGetPlayerPing",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "playerId",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "value",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0B2B",
+          "name": "sampGetPlayerIdByCharHandle",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "ped",
+              "type": "Char"
+            }
+          ],
+          "output": [
+            {
+              "name": "value",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0B2C",
+          "name": "sampGetVehicleIdByCarHandle",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "car",
+              "type": "Car"
+            }
+          ],
+          "output": [
+            {
+              "name": "value",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0B30",
+          "name": "sampSendEnterVehicle",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "vehicleId",
+              "type": "int"
+            },
+            {
+              "name": "passenger",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0B31",
+          "name": "sampSendExitVehicle",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "vehicleId",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0B32",
+          "name": "sampSendSpawn",
+          "num_params": 0
+        },
+        {
+          "id": "0B36",
+          "name": "sampGetPlayerNickname",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "playerId",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "value",
+              "type": "number"
+            }
+          ]
+        },
+        {
+          "id": "0B37",
+          "name": "sampGetPlayerColor",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "playerId",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "value",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0B38",
+          "name": "sampConnectToServer",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "ip",
+              "type": "string"
+            },
+            {
+              "name": "port",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0B39",
+          "name": "sampGetCurrentServerName",
+          "num_params": 1,
+          "output": [
+            {
+              "name": "value",
+              "type": "int"
+            }
+          ]
         }
-      ] 
+      ]
     }
   ],
   "classes": [
