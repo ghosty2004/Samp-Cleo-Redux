@@ -305,4 +305,9 @@ export const Samp = {
      * @param {boolean} show 
      */
     toggleCursor: (show) => native("sampToggleCursor", show),
+    /**
+     * Check if local player is spawned
+     * @returns {boolean}
+     */
+    isLocalPlayerSpawned: () => native("sampIsLocalPlayerSpawned"),
 }
