@@ -54848,6 +54848,17 @@
           "attrs": {
             "is_condition": true
           }
+        },
+        {
+          "id": "0B5D",
+          "name": "sampToggleCursor",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "show",
+              "type": "bool"
+            }
+          ]
         }
       ]
     }
