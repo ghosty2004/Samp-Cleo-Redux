@@ -54191,7 +54191,7 @@
           "num_params": 2,
           "input": [
             {
-              "name": "id",
+              "name": "vehicleId",
               "type": "int"
             }
           ],
@@ -54208,7 +54208,7 @@
           "num_params": 2,
           "input": [
             {
-              "name": "id",
+              "name": "playerId",
               "type": "int"
             }
           ],
@@ -54233,7 +54233,7 @@
           "num_params": 1,
           "input": [
             {
-              "name": "id",
+              "name": "playerId",
               "type": "int"
             }
           ],
@@ -54247,7 +54247,7 @@
           "num_params": 2,
           "input": [
             {
-              "name": "id",
+              "name": "playerId",
               "type": "int"
             }
           ],
@@ -54277,7 +54277,7 @@
         },
         {
           "id": "0B27",
-          "name": "sampSetGamestate",
+          "name": "sampSetGameState",
           "num_params": 1,
           "input": [
             {
@@ -54303,7 +54303,7 @@
           "num_params": 1,
           "input": [
             {
-              "name": "name",
+              "name": "newName",
               "type": "string"
             }
           ]
@@ -54331,7 +54331,7 @@
           "num_params": 2,
           "input": [
             {
-              "name": "ped",
+              "name": "char",
               "type": "Char"
             }
           ],
@@ -54430,25 +54430,170 @@
           "num_params": 2,
           "input": [
             {
-              "name": "ip",
+              "name": "serverIp",
               "type": "string"
             },
             {
-              "name": "port",
+              "name": "serverPort",
               "type": "int"
             }
           ]
         },
         {
-          "id": "0B39",
+          "id": "0b39",
+          "name": "sampGetCurrentServerAddress",
+          "num_params": 1,
+          "output": [
+            {
+              "name": "ip",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "id": "0B3A",
           "name": "sampGetCurrentServerName",
           "num_params": 1,
+          "output": [
+            {
+              "name": "value",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "id": "0B3B",
+          "name": "sampShowDialog",
+          "num_params": 6,
+          "input": [
+            {
+              "name": "dialogId",
+              "type": "int"
+            },
+            {
+              "name": "dialogCaption",
+              "type": "string"
+            },
+            {
+              "name": "dialogText",
+              "type": "string"
+            },
+            {
+              "name": "dialogButtonOne",
+              "type": "string"
+            },
+            {
+              "name": "dialogButtonTwo",
+              "type": "string"
+            },
+            {
+              "name": "dialogStyle",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0B3C",
+          "name": "sampHasDialogRespond",
+          "num_params": 5,
+          "input": [
+            {
+              "name": "dialogId",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "value1",
+              "type": "any"
+            },
+            {
+              "name": "value2",
+              "type": "any"
+            },
+            {
+              "name": "value3",
+              "type": "any"
+            },
+            {
+              "name": "valu4",
+              "type": "any"
+            }
+          ]
+        },
+        {
+          "id": "0b44",
+          "name": "sampCreate3dText",
+          "num_params": 10,
+          "input": [
+            {
+              "name": "text",
+              "type": "string"
+            },
+            {
+              "name": "color",
+              "type": "int"
+            },
+            {
+              "name": "posX",
+              "type": "float"
+            },
+            {
+              "name": "posY",
+              "type": "float"
+            },
+            {
+              "name": "posZ",
+              "type": "float"
+            },
+            {
+              "name": "drawDistance",
+              "type": "float"
+            },
+            {
+              "name": "ignoreWalls",
+              "type": "bool"
+            },
+            {
+              "name": "playerId",
+              "type": "int"
+            },
+            {
+              "name": "vehicleId",
+              "type": "int"
+            }
+          ],
           "output": [
             {
               "name": "value",
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0B45",
+          "name": "sampDestroy3dText",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "labelId",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0B46",
+          "name": "sampIs3dTextDefined",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "labelId",
+              "type": "int"
+            }
+          ],
+          "attrs": {
+            "is_condition": true
+          }
         }
       ]
     }
