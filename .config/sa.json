@@ -54713,6 +54713,23 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0B52",
+          "name": "sampGetObjectSampIdByHandle",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "object",
+              "type": "Object"
+            }
+          ],
+          "output": [
+            {
+              "name": "value",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
