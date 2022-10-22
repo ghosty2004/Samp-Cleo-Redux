@@ -54638,6 +54638,14 @@
               "type": "string"
             }
           ]
+        },
+        {
+          "id": "0B4C",
+          "name": "sampIsDialogActive",
+          "num_params": 0,
+          "attrs": {
+            "is_condition": true
+          }
         }
       ]
     }
