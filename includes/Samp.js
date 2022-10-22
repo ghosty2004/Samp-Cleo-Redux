@@ -300,4 +300,9 @@ export const Samp = {
      * @returns {boolean}
      */
     isPlayerPaused: (playerId) => native("sampIsPlayerPaused", playerId),
+    /**
+     * Switch cursor visibility
+     * @param {boolean} show 
+     */
+    toggleCursor: (show) => native("sampToggleCursor", show),
 }
