@@ -51295,56 +51295,6 @@
           "attrs": {
             "is_static": true
           }
-        },
-        {
-          "id": "0AFA",
-          "name": "isSampAvailable",
-          "num_params": 0,
-          "attrs": {
-            "is_condition": true,
-            "is_static": true
-          }
-        },
-        {
-          "id": "0AF8",
-          "name": "sampAddChatMessage",
-          "num_params": 2,
-          "input": [
-            {
-              "name": "text",
-              "type": "string"
-            },
-            {
-              "name": "color",
-              "type": "int"
-            }
-          ]
-        },
-        {
-          "id": "0AF9",
-          "name": "sampSendChat",
-          "num_params": 1,
-          "input": [
-            {
-              "name": "text",
-              "type": "string"
-            }
-          ]
-        },
-        {
-          "id": "0B34",
-          "name": "sampRegisterChatCommand",
-          "num_params": 2,
-          "input": [
-            {
-              "name": "cmd",
-              "type": "string"
-            },
-            {
-              "name": "",
-              "type": "label"
-            }
-          ]
         }
       ]
     },
@@ -54121,6 +54071,138 @@
           ]
         }
       ]
+    },
+    {
+      "name": "samp",
+      "commands": [
+        {
+          "id": "0AFA",
+          "name": "isSampAvailable",
+          "num_params": 0,
+          "attrs": {
+            "is_condition": true,
+            "is_static": true
+          }
+        },
+        {
+          "id": "0AF8",
+          "name": "sampAddChatMessage",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "text",
+              "type": "string"
+            },
+            {
+              "name": "color",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0AF9",
+          "name": "sampSendChat",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "text",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "id": "0B34",
+          "name": "sampRegisterChatCommand",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "cmd",
+              "type": "string"
+            },
+            {
+              "name": "",
+              "type": "label"
+            }
+          ]
+        },
+        {
+          "id": "0AFB",
+          "name": "sampRequestClass",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "id",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0AFC",
+          "name": "sampSendScmEvent",
+          "num_params": 4,
+          "input": [
+            {
+              "name": "event",
+              "type": "int"
+            },
+            {
+              "name": "id",
+              "type": "int"
+            },
+            {
+              "name": "param1",
+              "type": "int"
+            },
+            {
+              "name": "param2",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0AFD",
+          "name": "sampSetSpecialAction",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "action",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0AFE",
+          "name": "sampSendDeathByPlayer",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "playerId",
+              "type": "int"
+            },
+            {
+              "name": "reason",
+              "type": "int"
+            }
+          ]
+        },
+        {
+          "id": "0AFF",
+          "name": "sampGetCarHandleBySampVehicleId",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "id",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "handle",
+              "type": "int"
+            }
+          ]
+        }
+      ] 
     }
   ],
   "classes": [
