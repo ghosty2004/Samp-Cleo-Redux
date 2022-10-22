@@ -54594,6 +54594,17 @@
           "attrs": {
             "is_condition": true
           }
+        },
+        {
+          "id": "0B47",
+          "name": "sampCloseCurrentDialogWithButton",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "buttonId",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
