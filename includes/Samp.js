@@ -418,4 +418,17 @@ export const Samp = {
      * @param {number} bodyPart 
      */
     sendTakeDamage: (playerId, damageAmount, weaponId, bodyPart) => native("sampSendTakeDamage", playerId, damageAmount, weaponId, bodyPart),
+    /**
+     * Sends RPC about changing the structure of an object in its editing mode
+     * @param {boolean} isPlayerObject 
+     * @param {number} objectId 
+     * @param {number} response 
+     * @param {number} posX 
+     * @param {number} posY 
+     * @param {number} posZ 
+     * @param {number} rotX 
+     * @param {number} rotY 
+     * @param {number} rotZ 
+     */
+    sendEditObject: (isPlayerObject, objectId, response, posX, posY, posZ, rotX, rotY, rotZ) => native("sampSendEditObject", Number(isPlayerObject), objectId, response, posX, posY, posZ, rotX, rotY, rotZ),
 }
