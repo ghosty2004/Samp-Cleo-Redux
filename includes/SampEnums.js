@@ -15,3 +15,11 @@ export const DialogStyle = {
     "TABLIST": 4,
     "TABLIST_HEADERS": 5
 }
+
+export const CursorModes = {
+    "DISABLED": 0,
+    "LOCKKEYS_NOCURSOR": 1,
+    "LOCKCAMANDCONTROL": 2,
+    "LOCKCAM": 3,
+    "LOCKCAM_NOCURSOR": 4
+}
