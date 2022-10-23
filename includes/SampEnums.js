@@ -34,6 +34,27 @@ export const BodyPart = {
     "HEAD": 9
 }
 
+export const Bone = {
+    "SPINE": 1,
+    "HEAD": 2,
+    "LEFT_UPPER_ARM": 3,
+    "RIGHT_UPPER_ARM": 4,
+    "LEFT_HAND": 5,
+    "RIGHT_HAND": 6,
+    "LEFT_THIGH": 7,
+    "RIGHT_RHIGH": 8,
+    "LEFT_FOOT": 9,
+    "RIGHT_FOOT": 10,
+    "RIGHT_CALF": 11,
+    "LEFT_CALF": 12,
+    "LEFT_FOREARM": 13,
+    "RIGHT_FOREARM": 14,
+    "LEFT_CLAVICLE": 15,
+    "RIGHT_CLAVICLE": 16,
+    "NECK": 17,
+    "JAW": 18
+}
+
 export const EditObjectResponse = {
     "CANCEL": 0,
     "FINAL": 1,
