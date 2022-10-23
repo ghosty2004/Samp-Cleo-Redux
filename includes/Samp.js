@@ -316,4 +316,10 @@ export const Samp = {
      * @returns {number}
      */
     getPlayerSpecialAction: (playerId) => native("sampGetPlayerSpecialAction", playerId),
+    /**
+     * Cancels registration of a command
+     * @param {string} cmd 
+     * @returns 
+     */
+    unregisterChatCommand: (cmd) => native("sampUnregisterChatCommand", cmd),
 }
