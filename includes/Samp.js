@@ -328,4 +328,10 @@ export const Samp = {
      * @returns {boolean}
      */
     isPlayerNpc: (playerId) => native("sampIsPlayerNpc", playerId),
+    /**
+     * Get a player score
+     * @param {number} playerId 
+     * @returns {number}
+     */
+    getPlayerScore: (playerId) => native("sampGetPlayerScore", playerId),
 }
