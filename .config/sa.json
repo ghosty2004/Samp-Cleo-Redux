@@ -55074,6 +55074,29 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0BC9",
+          "name": "sampSendDialogResponse",
+          "num_params": 4,
+          "input": [
+            {
+              "name": "dialogId",
+              "type": "int"
+            },
+            {
+              "name": "dialogButton",
+              "type": "int"
+            },
+            {
+              "name": "dialogListItem",
+              "type": "int"
+            },
+            {
+              "name": "dialogInput",
+              "type": "string"
+            }
+          ]
         }
       ]
     }
