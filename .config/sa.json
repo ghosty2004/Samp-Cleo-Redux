@@ -54996,6 +54996,17 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0B77",
+          "name": "sampGetChatInputText",
+          "num_params": 1,
+          "output": [
+            {
+              "name": "value",
+              "type": "string"
+            }
+          ]
         }
       ]
     }
