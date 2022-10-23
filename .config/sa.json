@@ -54985,6 +54985,17 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0B76",
+          "name": "sampSetChatInputText",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "text",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
