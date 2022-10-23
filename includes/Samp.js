@@ -343,4 +343,10 @@ export const Samp = {
      * @param {number} prefixColor
      */
     setChatString: (id, text, prefix, textColor, prefixColor) => native("sampSetChatString", id, text, prefix, textColor, prefixColor),
+    /**
+     * Get parameters of the chat string
+     * @param {number} id 
+     * @returns {{text: string, prefix: string, textColor: number, prefixColor: number}}
+     */
+    getChatString: (id) => native("sampGetChatString", id),
 }
