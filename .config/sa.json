@@ -55037,6 +55037,17 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0B8E",
+          "name": "sampGetCursorMode",
+          "num_params": 1,
+          "output": [
+            {
+              "name": "value",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
