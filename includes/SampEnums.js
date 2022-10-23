@@ -16,10 +16,20 @@ export const DialogStyle = {
     "TABLIST_HEADERS": 5
 }
 
-export const CursorModes = {
+export const CursorMode = {
     "DISABLED": 0,
     "LOCKKEYS_NOCURSOR": 1,
     "LOCKCAMANDCONTROL": 2,
     "LOCKCAM": 3,
     "LOCKCAM_NOCURSOR": 4
+}
+
+export const BodyPart = {
+    "TORSO": 3,
+    "GROIN": 4,
+    "LEFT_ARM": 5,
+    "RIGHT_ARM": 6,
+    "LEFT_LEG": 7,
+    "RIGHT_LEG": 8,
+    "HEAD": 9
 }
