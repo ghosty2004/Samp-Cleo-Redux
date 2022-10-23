@@ -457,4 +457,9 @@ export const Samp = {
      * Sends request spawn RPC
      */
     sendRequestSpawn: () => native("sampSendRequestSpawn"),
+    /**
+     * Sends RPC about taking a pickup
+     * @param {number} pickupId 
+     */
+    sendPickedUpPickup: (pickupId) => native("sampSendPickedUpPickup", pickupId),
 }
