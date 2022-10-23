@@ -384,4 +384,9 @@ export const Samp = {
      * @param {string} cmd 
      */
     sendRconCommand: (cmd) => native("sampSendRconCommand", cmd),
+    /**
+     * Sends RPC about a double click on the player from scoreboard
+     * @param {number} playerId 
+     */
+    sendClickPlayer: (playerId) => native("sampSendClickPlayer", playerId, 0),
 }
