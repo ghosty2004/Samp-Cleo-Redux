@@ -54884,6 +54884,20 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0B63",
+          "name": "sampUnregisterChatCommand",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "cmd",
+              "type": "string"
+            }
+          ],
+          "attrs": {
+            "is_condition": true
+          }
         }
       ]
     }
