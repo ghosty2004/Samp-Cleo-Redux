@@ -55026,6 +55026,17 @@
           "attrs": {
             "is_condition": true
           }
+        },
+        {
+          "id": "0B8D",
+          "name": "sampSetCursorMode",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "cursorMode",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
