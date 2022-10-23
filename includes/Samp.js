@@ -364,4 +364,9 @@ export const Samp = {
      * @param {bool} enabled 
      */
     setChatInputEnabled: (enabled) => native("sampSetChatInputEnabled", enabled),
+    /**
+     * Checks if the cursor is visible
+     * @returns {boolean}
+     */
+    isCursorActive: () => native("sampIsCursorActive"),
 }
