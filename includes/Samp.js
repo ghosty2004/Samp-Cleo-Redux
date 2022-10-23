@@ -374,4 +374,9 @@ export const Samp = {
      * @param {number} cursorMode 
      */
     setCursorMode: (cursorMode) => native("sampSetCursorMode", cursorMode),
+    /**
+     * Get the cursor mode
+     * @returns {number}
+     */
+    getCursorMode: () => native("sampGetCursorMode"),
 }
