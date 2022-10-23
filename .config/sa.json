@@ -55007,6 +55007,17 @@
               "type": "string"
             }
           ]
+        },
+        {
+          "id": "0B79",
+          "name": "sampSetChatInputEnabled",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "enabled",
+              "type": "bool"
+            }
+          ]
         }
       ]
     }
