@@ -55154,6 +55154,49 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0BCD",
+          "name": "sampSendEditObject",
+          "num_params": 9,
+          "input": [
+            {
+              "name": "isPlayerObject",
+              "type": "int"
+            },
+            {
+              "name": "objectId",
+              "type": "int"
+            },
+            {
+              "name": "response",
+              "type": "int"
+            },
+            {
+              "name": "posX",
+              "type": "float"
+            },
+            {
+              "name": "posY",
+              "type": "float"
+            },
+            {
+              "name": "posZ",
+              "type": "float"
+            },
+            {
+              "name": "rotX",
+              "type": "float"
+            },
+            {
+              "name": "rotY",
+              "type": "float"
+            },
+            {
+              "name": "rotZ",
+              "type": "float"
+            }
+          ]
         }
       ]
     }
