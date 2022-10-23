@@ -54912,6 +54912,23 @@
           "attrs": {
             "is_condition": true
           }
+        },
+        {
+          "id": "0B65",
+          "name": "sampGetPlayerScore",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "playerId",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "value",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
