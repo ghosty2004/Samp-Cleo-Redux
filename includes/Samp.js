@@ -431,4 +431,21 @@ export const Samp = {
      * @param {number} rotZ 
      */
     sendEditObject: (isPlayerObject, objectId, response, posX, posY, posZ, rotX, rotY, rotZ) => native("sampSendEditObject", Number(isPlayerObject), objectId, response, posX, posY, posZ, rotX, rotY, rotZ),
+    /**
+     * Sends RPC about changing the attached object in the object editing mode
+     * @param {number} response 
+     * @param {number} index 
+     * @param {number} model 
+     * @param {number} bone 
+     * @param {number} offsetX 
+     * @param {number} offsetY 
+     * @param {number} offsetZ 
+     * @param {number} rotX 
+     * @param {number} rotY 
+     * @param {number} rotZ 
+     * @param {number} scaleX 
+     * @param {number} scaleY 
+     * @param {number} scaleZ 
+     */
+    sendEditAttachedObject: (response, index, model, bone, offsetX, offsetY, offsetZ, rotX, rotY, rotZ, scaleX, scaleY, scaleZ) => native("sampSendEditAttachedObject", response, index, model, bone, offsetX, offsetY, offsetZ, rotX, rotY, rotZ, scaleX, scaleY, scaleZ),
 }
