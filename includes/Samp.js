@@ -310,4 +310,10 @@ export const Samp = {
      * @returns {boolean}
      */
     isLocalPlayerSpawned: () => native("sampIsLocalPlayerSpawned"),
+    /**
+     * Get a player special action
+     * @param {number} playerId 
+     * @returns {number}
+     */
+    getPlayerSpecialAction: (playerId) => native("sampGetPlayerSpecialAction", playerId),
 }
