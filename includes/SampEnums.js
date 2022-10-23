@@ -33,3 +33,9 @@ export const BodyPart = {
     "RIGHT_LEG": 8,
     "HEAD": 9
 }
+
+export const EditObjectResponse = {
+    "CANCEL": 0,
+    "FINAL": 1,
+    "UPDATE": 2
+}
