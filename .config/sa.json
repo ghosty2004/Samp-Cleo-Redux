@@ -55048,6 +55048,16 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0BBF",
+          "name": "sampSendRconCommand",
+          "input": [
+            {
+              "name": "cmd",
+              "type": "string"
+            }
+          ]
         }
       ]
     }
