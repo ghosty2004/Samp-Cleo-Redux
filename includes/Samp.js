@@ -319,7 +319,13 @@ export const Samp = {
     /**
      * Cancels registration of a command
      * @param {string} cmd 
-     * @returns 
+     * @returns {boolean}
      */
     unregisterChatCommand: (cmd) => native("sampUnregisterChatCommand", cmd),
+    /**
+     * Check if a player is NPC
+     * @param {number} playerId 
+     * @returns {boolean}
+     */
+    isPlayerNpc: (playerId) => native("sampIsPlayerNpc", playerId),
 }
