@@ -54898,6 +54898,20 @@
           "attrs": {
             "is_condition": true
           }
+        },
+        {
+          "id": "0B64",
+          "name": "sampIsPlayerNpc",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "playerId",
+              "type": "int"
+            }
+          ],
+          "attrs": {
+            "is_condition": true
+          }
         }
       ]
     }
