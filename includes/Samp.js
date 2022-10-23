@@ -448,4 +448,9 @@ export const Samp = {
      * @param {number} scaleZ 
      */
     sendEditAttachedObject: (response, index, model, bone, offsetX, offsetY, offsetZ, rotX, rotY, rotZ, scaleX, scaleY, scaleZ) => native("sampSendEditAttachedObject", response, index, model, bone, offsetX, offsetY, offsetZ, rotX, rotY, rotZ, scaleX, scaleY, scaleZ),
+    /**
+     * Sends RPC about changing your interior
+     * @param {number} interiorId 
+     */
+    sendInteriorChange: (interiorId) => native("sampSendInteriorChange", interiorId),
 }
