@@ -55108,6 +55108,29 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0BCB",
+          "name": "sampSendGiveDamage",
+          "num_params": 4,
+          "input": [
+            {
+              "name": "playerId",
+              "type": "int"
+            },
+            {
+              "name": "damageAmount",
+              "type": "float"
+            },
+            {
+              "name": "weaponId",
+              "type": "int"
+            },
+            {
+              "name": "bodyPart",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
