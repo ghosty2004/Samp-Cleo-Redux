@@ -55052,10 +55052,26 @@
         {
           "id": "0BBF",
           "name": "sampSendRconCommand",
+          "num_params": 1,
           "input": [
             {
               "name": "cmd",
               "type": "string"
+            }
+          ]
+        },
+        {
+          "id": "0BC8",
+          "name": "sampSendClickPlayer",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "playerId",
+              "type": "int"
+            },
+            {
+              "name": "source",
+              "type": "int"
             }
           ]
         }
