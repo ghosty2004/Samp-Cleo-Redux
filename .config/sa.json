@@ -55272,6 +55272,17 @@
           "id": "0BD0",
           "name": "sampSendRequestSpawn",
           "num_params": 0
+        },
+        {
+          "id": "0BD1",
+          "name": "sampSendPickedUpPickup",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "pickupId",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
