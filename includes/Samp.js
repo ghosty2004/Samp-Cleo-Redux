@@ -361,7 +361,7 @@ export const Samp = {
     getChatInputText: () => native("sampGetChatInputText"),
     /**
      * Switch chat input to on/off
-     * @param {bool} enabled 
+     * @param {boolean} enabled 
      */
     setChatInputEnabled: (enabled) => native("sampSetChatInputEnabled", enabled),
     /**
@@ -369,4 +369,9 @@ export const Samp = {
      * @returns {boolean}
      */
     isCursorActive: () => native("sampIsCursorActive"),
+    /**
+     * Set the cursor mode
+     * @param {number} cursorMode 
+     */
+    setCursorMode: (cursorMode) => native("sampSetCursorMode", cursorMode),
 }
