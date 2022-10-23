@@ -54956,6 +54956,35 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0B75",
+          "name": "sampGetChatString",
+          "num_params": 5,
+          "input": [
+            {
+              "name": "id",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "text",
+              "type": "string"
+            },
+            {
+              "name": "prefix",
+              "type": "string"
+            },
+            {
+              "name": "textColor",
+              "type": "int"
+            },
+            {
+              "name": "prefixColor",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
