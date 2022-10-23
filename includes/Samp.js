@@ -379,4 +379,9 @@ export const Samp = {
      * @returns {number}
      */
     getCursorMode: () => native("sampGetCursorMode"),
+    /**
+     * Sends RCON command to the server
+     * @param {string} cmd 
+     */
+    sendRconCommand: (cmd) => native("sampSendRconCommand", cmd),
 }
