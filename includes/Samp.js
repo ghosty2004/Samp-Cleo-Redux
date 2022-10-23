@@ -349,4 +349,9 @@ export const Samp = {
      * @returns {{text: string, prefix: string, textColor: number, prefixColor: number}}
      */
     getChatString: (id) => native("sampGetChatString", id),
+    /**
+     * Insert text in the chat field
+     * @param {string} text 
+     */
+    setChatInputText: (text) => native("sampSetChatInputText", text),
 }
