@@ -55256,6 +55256,17 @@
               "type": "float"
             }
           ]
+        },
+        {
+          "id": "0BCF",
+          "name": "sampSendInteriorChange",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "interiorId",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
