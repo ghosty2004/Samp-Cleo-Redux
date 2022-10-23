@@ -389,4 +389,12 @@ export const Samp = {
      * @param {number} playerId 
      */
     sendClickPlayer: (playerId) => native("sampSendClickPlayer", playerId, 0),
+    /**
+     * Send a dialog response RPC
+     * @param {number} dialogId 
+     * @param {number} dialogButton 
+     * @param {number} dialogListItem 
+     * @param {string} dialogInput 
+     */
+    sendDialogResponse: (dialogId, dialogButton, dialogListItem, dialogInput) => native("sampSendDialogResponse", dialogId, dialogButton, dialogListItem, dialogInput),
 }
