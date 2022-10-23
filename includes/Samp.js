@@ -410,4 +410,12 @@ export const Samp = {
      * @param {number} bodyPart 
      */
     sendGiveDamage: (playerId, damageAmount, weaponId, bodyPart) => native("sampSendGiveDamage", playerId, damageAmount, weaponId, bodyPart),
+    /**
+     * Sends RPC about getting damage from another player
+     * @param {number} playerId 
+     * @param {number} damageAmount 
+     * @param {number} weaponId 
+     * @param {number} bodyPart 
+     */
+    sendTakeDamage: (playerId, damageAmount, weaponId, bodyPart) => native("sampSendTakeDamage", playerId, damageAmount, weaponId, bodyPart),
 }
