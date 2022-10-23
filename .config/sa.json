@@ -55018,6 +55018,14 @@
               "type": "bool"
             }
           ]
+        },
+        {
+          "id": "0B8C",
+          "name": "sampIsCursorActive",
+          "num_params": 0,
+          "attrs": {
+            "is_condition": true
+          }
         }
       ]
     }
