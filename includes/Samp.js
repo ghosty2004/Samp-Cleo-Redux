@@ -354,4 +354,9 @@ export const Samp = {
      * @param {string} text 
      */
     setChatInputText: (text) => native("sampSetChatInputText", text),
+    /**
+     * Get insered text from chat field
+     * @returns {string}
+     */
+    getChatInputText: () => native("sampGetChatInputText"),
 }
