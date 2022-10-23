@@ -55197,6 +55197,65 @@
               "type": "float"
             }
           ]
+        },
+        {
+          "id": "0BCE",
+          "name": "sampSendEditAttachedObject",
+          "num_params": 13,
+          "input": [
+            {
+              "name": "response",
+              "type": "int"
+            },
+            {
+              "name": "index",
+              "type": "int"
+            },
+            {
+              "name": "model",
+              "type": "int"
+            },
+            {
+              "name": "bone",
+              "type": "int"
+            },
+            {
+              "name": "offsetX",
+              "type": "float"
+            },
+            {
+              "name": "offsetY",
+              "type": "float"
+            },
+            {
+              "name": "offsetZ",
+              "type": "float"
+            },
+            {
+              "name": "rotX",
+              "type": "float"
+            },
+            {
+              "name": "rotY",
+              "type": "float"
+            },
+            {
+              "name": "rotZ",
+              "type": "float"
+            },
+            {
+              "name": "scaleX",
+              "type": "float"
+            },
+            {
+              "name": "scaleY",
+              "type": "float"
+            },
+            {
+              "name": "scaleZ",
+              "type": "float"
+            }
+          ]
         }
       ]
     }
