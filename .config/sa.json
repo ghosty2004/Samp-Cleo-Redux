@@ -55097,6 +55097,17 @@
               "type": "string"
             }
           ]
+        },
+        {
+          "id": "0BCA",
+          "name": "sampSendClickTextdraw",
+          "num_params": 1,
+          "input": [
+            {
+              "name": "textDrawId",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
