@@ -359,4 +359,9 @@ export const Samp = {
      * @returns {string}
      */
     getChatInputText: () => native("sampGetChatInputText"),
+    /**
+     * Switch chat input to on/off
+     * @param {bool} enabled 
+     */
+    setChatInputEnabled: (enabled) => native("sampSetChatInputEnabled", enabled),
 }
