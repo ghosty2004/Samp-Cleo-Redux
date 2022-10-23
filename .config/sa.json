@@ -55267,6 +55267,11 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0BD0",
+          "name": "sampSendRequestSpawn",
+          "num_params": 0
         }
       ]
     }
