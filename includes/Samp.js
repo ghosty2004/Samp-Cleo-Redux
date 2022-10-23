@@ -334,4 +334,13 @@ export const Samp = {
      * @returns {number}
      */
     getPlayerScore: (playerId) => native("sampGetPlayerScore", playerId),
+    /**
+     * Changes the parameters of the chat line
+     * @param {number} id 
+     * @param {string} text 
+     * @param {string} prefix 
+     * @param {number} textColor 
+     * @param {number} prefixColor
+     */
+    setChatString: (id, text, prefix, textColor, prefixColor) => native("sampSetChatString", id, text, prefix, textColor, prefixColor),
 }
