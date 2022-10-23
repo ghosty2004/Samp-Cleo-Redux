@@ -55131,6 +55131,29 @@
               "type": "int"
             }
           ]
+        },
+        {
+          "id": "0BCC",
+          "name": "sampSendTakeDamage",
+          "num_params": 4,
+          "input": [
+            {
+              "name": "playerId",
+              "type": "int"
+            },
+            {
+              "name": "damageAmount",
+              "type": "int"
+            },
+            {
+              "name": "weaponId",
+              "type": "int"
+            },
+            {
+              "name": "bodyPart",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
