@@ -54867,6 +54867,23 @@
           "attrs": {
             "is_condition": true
           }
+        },
+        {
+          "id": "0B62",
+          "name": "sampGetPlayerSpecialAction",
+          "num_params": 2,
+          "input": [
+            {
+              "name": "playerId",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "value",
+              "type": "int"
+            }
+          ]
         }
       ]
     }
