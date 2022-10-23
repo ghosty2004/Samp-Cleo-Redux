@@ -453,4 +453,8 @@ export const Samp = {
      * @param {number} interiorId 
      */
     sendInteriorChange: (interiorId) => native("sampSendInteriorChange", interiorId),
+    /**
+     * Sends request spawn RPC
+     */
+    sendRequestSpawn: () => native("sampSendRequestSpawn"),
 }
