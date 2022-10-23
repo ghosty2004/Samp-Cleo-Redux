@@ -397,4 +397,9 @@ export const Samp = {
      * @param {string} dialogInput 
      */
     sendDialogResponse: (dialogId, dialogButton, dialogListItem, dialogInput) => native("sampSendDialogResponse", dialogId, dialogButton, dialogListItem, dialogInput),
+    /**
+     * Send a textdraw click RPC
+     * @param {number} textDrawId 
+     */
+    sendClickTextdraw: (textDrawId) => native("sampSendClickTextdraw", textDrawId),
 }
