@@ -402,4 +402,12 @@ export const Samp = {
      * @param {number} textDrawId 
      */
     sendClickTextdraw: (textDrawId) => native("sampSendClickTextdraw", textDrawId),
+    /**
+     * Sends RPC about damage to another player
+     * @param {number} playerId 
+     * @param {number} damageAmount 
+     * @param {number} weaponId 
+     * @param {number} bodyPart 
+     */
+    sendGiveDamage: (playerId, damageAmount, weaponId, bodyPart) => native("sampSendGiveDamage", playerId, damageAmount, weaponId, bodyPart),
 }
